@@ -3,7 +3,7 @@ os: linux
 files:
   - source: /
     destination: /home/ubuntu/finetodoLastver
-
+file_exists_behavior: OVERWRITE
 hooks:
   ApplicationStop:
     - location: scripts/stop.sh
