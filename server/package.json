@@ -6,7 +6,7 @@
         "lib": "lib"
     },
     "scripts": {
-        "prestart": "npx sequelize-cli db:migrate",
+      
         "start": "node index.js",
         "pretest": "npx sequelize-cli db:migrate"
     },
